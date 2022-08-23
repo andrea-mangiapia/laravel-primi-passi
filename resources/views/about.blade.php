@@ -22,20 +22,11 @@
     </header>
 
     <main>
-        <h1>Hello World</h1>
+        <h1>About</h1>
 
-        <div>
-            <h2>
-                Film preferiti di {{ $name }} {{ $lastname }}
-            </h2>
-        </div>
-
-        <div>
-            @foreach($movies as $movie)
-                {{ $movie }}@if(!$loop->last), @endif
-            @endforeach
-        </div>
-
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet itaque doloremque earum error dolorem fuga rerum unde, incidunt delectus nam dolorum dignissimos, nobis magnam perspiciatis commodi consequatur. Dolor, optio autem?
+        </p>
     </main>
 </body>
 </html>
